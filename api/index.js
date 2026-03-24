@@ -7,6 +7,7 @@ export default function handler(req, res) {
     endpoints: {
         usuarios: '/api/usuarios',
         productos: '/api/productos',
+        practica: '/api/practica'
     },
     timestamp: new Date().toISOString(),
     });
